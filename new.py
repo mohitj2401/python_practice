@@ -19,3 +19,4 @@ while (min_val != 0):
     count = 0
 
 return (lt.insert(0, len(arr)))
+#okkkk
