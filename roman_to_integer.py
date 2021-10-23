@@ -22,8 +22,11 @@ class Solution:
 
         return number
 
-print(f"Roman number: III :: Integer:{Solution().romanToInt('III')}")
-print(f"Roman number: IV :: Integer:{Solution().romanToInt('IV')}")
-print(f"Roman number: IX :: Integer:{Solution().romanToInt('IX')}")
-print(f"Roman number: LVIII :: Integer:{Solution().romanToInt('LVIII')}")
-print(f"Roman number: MCMXCIV :: Integer:{Solution().romanToInt('MCMXCIV')}") 
+# print(f"Roman number: III :: Integer:{Solution().romanToInt('III')}")
+# print(f"Roman number: IV :: Integer:{Solution().romanToInt('IV')}")
+# print(f"Roman number: IX :: Integer:{Solution().romanToInt('IX')}")
+# print(f"Roman number: LVIII :: Integer:{Solution().romanToInt('LVIII')}")
+# print(f"Roman number: MCMXCIV :: Integer:{Solution().romanToInt('MCMXCIV')}") 
+
+roman_var=input("Enter Roman Variable")
+print(f"Roman number: {roman_var} :: Integer:{Solution().romanToInt(roman_var)}")
